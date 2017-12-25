@@ -17,13 +17,8 @@ A small and free library for google translation
 
     googleTranslate(sourceText, sourceLanguage, targetLanguage)
     .then(function(response) {
-        console.log('Translated Text 1', response);
+        console.log(response);
     });
   
   
   Output should be `तिमीलाई कस्तो छ`
-
-
-## Contributing
-
-In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
