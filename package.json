@@ -1,0 +1,27 @@
+{
+  "name": "free-google-translation",
+  "version": "0.1.0",
+  "description": "Free Google Translation provided by www.easyhindityping.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambhuWeb/free-google-translation.git"
+  },
+  "keywords": [
+    "English",
+    "To",
+    "Hindi",
+    "Translation",
+    "Google",
+    "Translation"
+  ],
+  "author": "Sambhu Raj Singh <sambhu.raj.singh@gmail.com> (node.howtofixthis.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sambhuWeb/free-google-translation/issues"
+  },
+  "homepage": "https://github.com/sambhuWeb/free-google-translation#readme"
+}
