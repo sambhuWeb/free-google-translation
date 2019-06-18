@@ -28,7 +28,7 @@ var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
                 // Resolve the promise with the response text
                 resolve(fullText);
-            } else {
+            } else if (request.status != 0) {
                 // Otherwise reject with the status text
                 // which will hopefully be a meaningful error
                 reject('Rejected !' + request.status);
