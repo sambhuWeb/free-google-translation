@@ -1,5 +1,7 @@
 'use strict';
 
+var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+
 /**
  * Adds comma to a number
  * @param {number} number
@@ -18,7 +20,7 @@
             // This is called even on 404 etc
             // so check the status
             if (request.status == 200) {
-                let json = JSON.parse(request.response);
+                let json = JSON.parse(request.responseText);
                 let fullText = '';
                 for (let data of json[0]) {                    
                     fullText = fullText +  data[0];                        

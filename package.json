@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/sambhuWeb/free-google-translation/issues"
   },
-  "homepage": "https://github.com/sambhuWeb/free-google-translation#readme"
+  "homepage": "https://github.com/sambhuWeb/free-google-translation#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
