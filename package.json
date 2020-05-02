@@ -1,6 +1,6 @@
 {
   "name": "free-google-translation",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Free Google Translation provided by www.easyhindityping.com",
   "main": "index.js",
   "scripts": {
